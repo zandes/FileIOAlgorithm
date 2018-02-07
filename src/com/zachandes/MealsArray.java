@@ -38,7 +38,7 @@ public class MealsArray {
             System.out.println("Invalid Calories " + arg3 + ", defaulted to 100.");
         }
 
-        meals.add(i++, new Meals(mealType, arg2, calories));
+        meals.add(new Meals(mealType, arg2, calories));
     }
 
     public ArrayList<Meals> getMeals() {
